@@ -10,15 +10,15 @@
     <meta property="og:title" content="המקהלות של אבי" />
     <meta property="og:description" content="מקהלת שורשים והמקהלה הבוכרית: פלייליסטים, מספר סרטונים וקישורים ישירים לשירים." />
     <meta property="og:url" content="https://avivmatsa-code.github.io/avi-choirs/" />
-    <meta property="og:image" content="https://i3.ytimg.com/vi/BZTHBIDbtl0/hqdefault.jpg" />
-    <meta property="og:image:secure_url" content="https://i3.ytimg.com/vi/BZTHBIDbtl0/hqdefault.jpg" />
+    <meta property="og:image" content="https://avivmatsa-code.github.io/avi-choirs/assets/roots-choir.jpg" />
+    <meta property="og:image:secure_url" content="https://avivmatsa-code.github.io/avi-choirs/assets/roots-choir.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="480" />
-    <meta property="og:image:height" content="360" />
+    <meta property="og:image:width" content="420" />
+    <meta property="og:image:height" content="287" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="המקהלות של אבי" />
     <meta name="twitter:description" content="מקהלת שורשים והמקהלה הבוכרית: פלייליסטים, מספר סרטונים וקישורים ישירים לשירים." />
-    <meta name="twitter:image" content="https://i3.ytimg.com/vi/BZTHBIDbtl0/hqdefault.jpg" />
+    <meta name="twitter:image" content="https://avivmatsa-code.github.io/avi-choirs/assets/roots-choir.jpg" />
     <link rel="canonical" href="https://avivmatsa-code.github.io/avi-choirs/" />
     <style>
       :root { color-scheme: light; --ink:#17211f; --muted:#66736f; --paper:#f7f8f6; --surface:#fff; --surface-soft:#eef5f1; --line:#dfe6e2; --teal:#19715f; --teal-dark:#125446; --coral:#c75b55; --blue:#3f6fa8; --shadow:0 14px 34px rgba(23,33,31,.08); }
@@ -48,6 +48,9 @@
       .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
       .card { min-width:0; overflow:hidden; border:1px solid var(--line); border-radius:8px; background:var(--surface); box-shadow:0 10px 28px rgba(23,33,31,.06); }
       .portal-card { min-height:196px; display:grid; gap:10px; padding:20px; } .portal-card p { margin:0; }
+      .choir-photo { margin:0 0 18px; overflow:hidden; border:1px solid var(--line); border-radius:8px; background:var(--surface); box-shadow:var(--shadow); }
+      .choir-photo img { display:block; width:100%; aspect-ratio:16/7; object-fit:cover; }
+      .choir-photo figcaption { padding:10px 14px; color:var(--muted); font-weight:700; background:#fff; }
       .footer { border-top:1px solid var(--line); margin-top:34px; padding:24px 16px 34px; color:var(--muted); background:#fff; text-align:center; }
       @media (max-width:980px) { .hero { grid-template-columns:1fr; } .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
       @media (max-width:680px) { .nav { align-items:flex-start; flex-direction:column; padding:14px 0; } .nav-links { width:100%; justify-content:stretch; } .nav-links a { flex:1 1 130px; } .section-heading { align-items:flex-start; flex-direction:column; } .grid { grid-template-columns:1fr; } .actions .button { flex:1 1 180px; } }
@@ -76,6 +79,10 @@
       </section>
       <section class="section" id="roots" aria-labelledby="roots-title">
         <div class="section-heading"><div><h2 id="roots-title">מקהלת שורשים</h2><p class="section-text">מקהלת שורשים מבית דני. בפלייליסט יש 10 סרטונים.</p></div><a class="button primary" href="https://www.youtube.com/playlist?list=PL7xwd5UKvOL_GC_8-bJv6Id8DPWCe2tnP" target="_blank" rel="noreferrer"><span aria-hidden="true">▶</span> פתיחת הפלייליסט · 10 סרטונים</a></div>
+        <figure class="choir-photo">
+          <img src="./assets/roots-choir.jpg" alt="מקהלת שורשים" />
+          <figcaption>מקהלת שורשים</figcaption>
+        </figure>
         <div class="grid">
           <article class="card portal-card"><span class="kicker green">🎵 שיר</span><h3>תל אביב/ מקהלת שורשים חוגגת 25</h3><p>מתוך פלייליסט מקהלת שורשים.</p><a class="button primary" href="https://www.youtube.com/watch?v=BZTHBIDbtl0" target="_blank" rel="noreferrer">פתיחה ב-YouTube</a></article>
           <article class="card portal-card"><span class="kicker green">🎵 שיר</span><h3>עץ הרימון/ מקהלת שורשים חוגגת 25</h3><p>מתוך פלייליסט מקהלת שורשים.</p><a class="button primary" href="https://www.youtube.com/watch?v=dPilAthPk1g" target="_blank" rel="noreferrer">פתיחה ב-YouTube</a></article>
@@ -91,6 +98,10 @@
       </section>
       <section class="section" id="bukharian" aria-labelledby="bukharian-title">
         <div class="section-heading"><div><h2 id="bukharian-title">המקהלה הבוכרית</h2><p class="section-text">שירים מתוך אוסף ההקלטות של אבי אברהמוף. בפלייליסט יש 8 סרטונים.</p></div><a class="button primary" href="https://www.youtube.com/playlist?list=PL7xwd5UKvOL9vWk6BzVmHo6XbCGljD6DE" target="_blank" rel="noreferrer"><span aria-hidden="true">▶</span> פתיחת הפלייליסט · 8 סרטונים</a></div>
+        <figure class="choir-photo">
+          <img src="./assets/bukharian-choir.jpg" alt="המקהלה הבוכרית" />
+          <figcaption>המקהלה הבוכרית</figcaption>
+        </figure>
         <div class="grid">
           <article class="card portal-card"><span class="kicker green">🎵 שיר</span><h3>צור משלו/ המקהלה הבוכרית</h3><p>מתוך אוסף ההקלטות של אבי אברהמוף.</p><a class="button primary" href="https://www.youtube.com/watch?v=gg0dnKPIUyU" target="_blank" rel="noreferrer">פתיחה ב-YouTube</a></article>
           <article class="card portal-card"><span class="kicker green">🎵 שיר</span><h3>דרור יקרא/ המקהלה הבוכרית</h3><p>מתוך אוסף ההקלטות של אבי אברהמוף.</p><a class="button primary" href="https://www.youtube.com/watch?v=GwTkL2Xn-3Q" target="_blank" rel="noreferrer">פתיחה ב-YouTube</a></article>
